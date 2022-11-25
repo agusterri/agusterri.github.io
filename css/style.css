@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0e2a40;
+}
+
+p {
+  text-justify: auto;
+}
+.header-sm__icons {
+  text-align: right;
+  fill: #0e2a40;
+}
+.header-sm__icons a:hover {
+  color: #a68041;
+}
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+.header-sm a i {
+  font-size: 2rem;
+}
+
+.header-sm a {
+  color: white;
+}
+
+.shop {
+  font-size: 2rem;
+  text-align: right;
+  font-weight: 400;
+  fill: #0e2a40;
+}
+
+.shop a:hover {
+  color: #a68041;
+}
+
+.display1 {
+  font-size: 2rem;
+  margin-top: 1, 2rem;
+  display: inline-block;
+  text-align: center;
+  padding: 2rem;
+}
+.display_img {
+  margin-top: 0;
+  text-align: right;
+}
+.row {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.card {
+  padding-bottom: 10%;
+  margin-top: 10%;
+}
+
+.card__titule {
+  color: bisque;
+}
+header {
+  background-color: #0e2a40;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+footer {
+  position: absolute;
+  bottom: auto;
+  width: 100%;
+  height: 5rem;
+  background-color: black;
+}
+/*Estilos de index*/
+
+.table {
+  width: 1000px;
+  margin: 0;
+  padding: 1, 5rem;
+}
+
+.siembra {
+  text-align: center;
+  font-size: 1.9rem;
+  color: #a68041;
+}
+
+.download__logo-box {
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  width: 100%;
+  padding: 2 rem;
+  border: 2px solid #0e2a40;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.9rem;
+  color: #a68041;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 80%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  text-align: center;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 7em;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto {
+  text-align: center;
+  color: #a68041;
+}
+
+.btn.btn-outline-dark {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 1.8 rem;
+}
+
+.encontranos {
+  text-align: center;
+  color: #a68041;
+}
+
+.map-responsive {
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+  margin-bottom: 10%;
+  max-width: 90%;
+}
+
+#whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+svg {
+  width: 80px;
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.4));
+}
+
+circle {
+  fill: #0e2a40;
+}
+path {
+  fill: #a68041;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 30%; /* Adecua este valor para controlar la altura del video */
+  position: relative;
+  height: 0;
+}
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  margin-top: 10%;
+}
